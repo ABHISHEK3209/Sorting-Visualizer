@@ -123,9 +123,9 @@ function Sidebar() {
          <label htmlFor="color">Color: </label>
          <select name="color" id="color" onChange = {(e) => handleColor(e.target.value)} disabled = {myState.play? true: false}>
             <option value="rgb(0, 149, 199)" style={{color:'rgb(0, 149, 199)'}}>Blue</option> 
-            <option value='rgb(85, 212, 0)' style={{color:'rgb(10,200,20)'}}>Green</option>
+         
             <option value="rgb(255, 112, 112)" style={{color:'red'}}>Red</option>
-            <option value="grey" style={{color:'grey'}}>Black</option>
+           
             <option value="#ddd902" style={{color:'#ddd902'}}>Yellow</option>
          </select>
       </div>
