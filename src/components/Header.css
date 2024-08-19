@@ -1,0 +1,39 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  padding: 0px 80px;
+}
+
+
+.header-logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.dis1{
+  
+margin: auto;
+  color: rgb(16, 1, 12);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    margin-right: -50px;
+  }
+
+  .header {
+    padding: 0px 10px;
+  }
+
+ 
+}
