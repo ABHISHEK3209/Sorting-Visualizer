@@ -9,7 +9,7 @@ function Header() {
     <div className="header">
 
       <div className="header-logo">Algo<span>Visuals</span></div>
-      <div className="dis1"><span>This site is only for showing how different Sorting Algorithm work</span></div>
+      <div className="dis1"><span></span></div>
       
    </div>
   )
