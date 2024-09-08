@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
 
-      <div className="header-logo">Algo<span>Visuals</span></div>
+      <div className="header-logo">Sorting<span>Visualizer</span></div>
       <div className="dis1"><span></span></div>
       
    </div>
